@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.brianvp.proyectosqlite.MainActivity"
+    android:orientation="vertical"
+    android:paddingRight="30dp"
+    android:paddingLeft="30dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/sqllite"
+        android:layout_marginBottom="50dp"/>
+
+    <Button
+        android:id="@+id/reg_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar usuario"
+        android:layout_marginBottom="15dp"
+        android:onClick="registrar"
+        />
+    <Button
+        android:id="@+id/cons_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="consultar usuario"
+        android:layout_marginBottom="15dp"
+        android:onClick="buscar"/>
+    <Button
+        android:id="@+id/cons_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consultar Sppiner"
+        android:layout_marginBottom="15dp"
+        android:onClick="irSpinner"/>
+    <Button
+        android:id="@+id/cons_list_iew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consultar List view"
+        android:layout_marginBottom="15dp"
+        android:onClick="irLista"/>
+    <Button
+        android:id="@+id/reg_mascota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="registrar mascota"
+        android:layout_marginBottom="15dp"
+        android:onClick="rMascota"/>
+    <Button
+        android:id="@+id/ver_mascotas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consultar mascotas"
+        android:layout_marginBottom="15dp"
+        android:onClick="vMascota"/>
+
+
+</LinearLayout>
